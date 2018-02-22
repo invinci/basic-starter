@@ -1,4 +1,4 @@
-package com.ueno.reactnativestarter;
+package com.cryptocrunch;
 
 import com.reactnativenavigation.controllers.SplashActivity;
 

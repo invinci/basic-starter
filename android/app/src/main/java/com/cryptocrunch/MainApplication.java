@@ -1,4 +1,4 @@
-package com.ueno.reactnativestarter;
+package com.cryptocrunch;
 
 import android.app.Application;
 import android.content.Context;
