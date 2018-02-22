@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native-ui-lib';
-import PropTypes from 'prop-types';
-import { autobind } from 'core-decorators';
-import { SPLASH_SCREEN } from 'screens';
-import Button from 'components11/button';
+import React, { Component } from "react";
+import { View, Text } from "react-native-ui-lib";
+import PropTypes from "prop-types";
+import { autobind } from "core-decorators";
+import { SPLASH_SCREEN } from "screens";
+import Button from "components11/button";
 
-export default class Splash extends Component {
+export default class Home extends Component {
   static propTypes = {
-    navigator: PropTypes.object.isRequired,
+    navigator: PropTypes.object.isRequired
   };
 
   @autobind
   onPress() {
     this.props.navigator.push({
-      screen: 'login',
+      screen: SPLASH_SCREEN,
       passProps: {
-        id: 1,
-      },
+        id: 1
+      }
     });
   }
 
